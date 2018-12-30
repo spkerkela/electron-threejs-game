@@ -5,7 +5,7 @@ const {
   BoxGeometry,
   MeshBasicMaterial,
   Mesh
-} = require('three');
+} = require("three");
 var scene = new Scene();
 var camera = new PerspectiveCamera(
   75,

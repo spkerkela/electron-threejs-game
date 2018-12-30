@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Electron Threejs Game</title>
-    <style>
-      body {
-        margin: 0;
-      }
-      canvas {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <script src="client/app.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Electron Threejs Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="blocker">
+
+    <div id="instructions">
+      <span style="font-size:40px">Click to play</span>
+      <br /> (W, A, S, D = Move, SPACE = Jump, MOUSE = Look around)
+    </div>
+
+  </div>
+  <script src="fps.js"></script>
+</body>
+
 </html>
